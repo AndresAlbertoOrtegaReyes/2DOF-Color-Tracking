@@ -23,7 +23,7 @@ The physical system consists of a custom 3D-printed structure designed to hold t
 
 > **Note:** The mechanical design files (`.stl`) can be found in the `cad/` directory.
 
-![Hardware Setup](media/setup_real.jpg)
+![Hardware Setup](media/DOF2_Artificial_Vision.jpg)
 *Figure 1: Physical implementation of the 2-DOF Tracking Turret.*
 
 ## 🚀 Software Strategy
@@ -47,7 +47,7 @@ $$u(t) = K_p e(t) + K_i \int_{0}^{t} e(\tau) d\tau + K_d \frac{de(t)}{dt}$$
 ## 📊 Results & Performance
 The system was tested with dynamic object movement. The graphs below show the error minimization over time, demonstrating the stability of the PID tuning.
 
-![PID Error Graph](media/pid_results.png)
+![PID Error Graph](media/Error_Artificial_Vision.jpg)
 *Figure 2: Tracking error (in pixels) for X and Y axes over time.*
 
 ## 📂 Project Structure
