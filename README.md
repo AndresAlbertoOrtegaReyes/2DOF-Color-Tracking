@@ -1,4 +1,4 @@
-# 2-DOF Visual Servoing System with PID Control
+# 2DOF Color Tracking
 
 ![MATLAB](https://img.shields.io/badge/MATLAB-R2023a-orange) ![Arduino](https://img.shields.io/badge/Hardware-Arduino_UNO-blue) ![Status](https://img.shields.io/badge/Status-Completed-success)
 
