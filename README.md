@@ -23,7 +23,8 @@ The physical system consists of a custom 3D-printed structure designed to hold t
 
 > **Note:** The mechanical design files (`.stl`) can be found in the `cad/` directory.
 
-![Hardware Setup](media/DOF2_Artificial_Vision.jpg)
+![Hardware Setup](DOF2_Artificial_Vision.jpg)
+
 *Figure 1: Physical implementation of the 2-DOF Tracking Turret.*
 
 ## 🚀 Software Strategy
@@ -47,18 +48,6 @@ $$u(t) = K_p e(t) + K_i \int_{0}^{t} e(\tau) d\tau + K_d \frac{de(t)}{dt}$$
 ## 📊 Results & Performance
 The system was tested with dynamic object movement. The graphs below show the error minimization over time, demonstrating the stability of the PID tuning.
 
-![PID Error Graph](media/Error_Artificial_Vision.jpg)
-*Figure 2: Tracking error (in pixels) for X and Y axes over time.*
+![PID Error Graph](Error_Artificial_Vision.jpg)
 
-## 📂 Project Structure
-```text
-├── arduino/
-│   └── servo_control.ino       # Firmware for servo actuation and serial parsing
-├── matlab/
-│   ├── main_tracker.m          # Main script: Vision pipeline + PID logic
-│   └── functions/              # Helper functions for filtering and serial comms
-├── cad/
-│   └── stl_files/              # 3D print files for Pan/Tilt brackets
-├── docs/
-│   └── Implementation_Report.pdf # Full academic report (Spanish)
-└── media/                      # Images for this README
+*Figure 2: Tracking error (in pixels) for X and Y axes over time.*
